@@ -20,7 +20,9 @@ defmodule MusicBoxWeb.Router do
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", MusicBoxWeb do
-  #   pipe_through :api
-  # end
+  scope "/api", MusicBoxWeb do
+    pipe_through :api
+
+    resources "/tracks", TrackController, except: [:new, :edit]
+  end
 end
