@@ -52,7 +52,7 @@ config :phoenix, :stacktrace_depth, 20
 config :music_box, MusicBox.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "postgres",
+  password: "123456",
   database: "music_box_dev",
   hostname: "localhost",
   pool_size: 10
