@@ -1,20 +1,25 @@
 # MusicBox
 
-To start your Phoenix server:
+## Why?
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
-  * Install Node.js dependencies with `cd assets && npm install`
-  * Start Phoenix endpoint with `mix phx.server`
+Side project created to learn elixir.
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+## Goals
 
-Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
+### Project
 
-## Learn more
+* Create a minimum viable product
+* Make setup and deployment super simple
+* [Extra] Able to run it in a embedded device
 
-  * Official website: http://www.phoenixframework.org/
-  * Guides: http://phoenixframework.org/docs/overview
-  * Docs: https://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
+### Personal
+
+* Learn elixir
+* Learn phoenix
+* Learn elm
+* Learn docker
+* Learn new libraries/frameworks/technologies
+
+## TODO
+
+https://trello.com/b/v23QFqcL/music-box
